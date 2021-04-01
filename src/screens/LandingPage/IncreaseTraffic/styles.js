@@ -28,6 +28,7 @@ export const IncreaseTrafficWrap = styled.div`
       }
       @media (max-width: 800px) {
         width: 100%;
+        font-size: 40px;
       }
     }
 

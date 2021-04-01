@@ -4,7 +4,7 @@ import GeneralLayout from "../../components/Layout";
 import HeroSection from "./HeroSection";
 import YourChoice from "./YourChoiceSection";
 import IncreaseTraffic from "./IncreaseTraffic";
-
+import SaveMoney from "./SaveMoney";
 
 const LandingPage = () => {
   return (
@@ -13,6 +13,7 @@ const LandingPage = () => {
         <HeroSection />
         <YourChoice />
         <IncreaseTraffic />
+        <SaveMoney />
       </LandingPageWrap>
     </GeneralLayout>
   );
