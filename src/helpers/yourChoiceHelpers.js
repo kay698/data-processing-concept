@@ -52,7 +52,7 @@ export const ChoiceContents = [
       "Improve ashamed married expense bed her comfort pursuit mrs. Four time took ye your as fail lady. ",
   },
   {
-    icon: Estatic,
+    icon: Bulb,
     header: "Comfort pursuit",
     body:
       "Had denoting properly jointure you occasion directly raillery. In said to of poor full be post face snug.",

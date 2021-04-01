@@ -3,6 +3,8 @@ import { LandingPageWrap } from "./styles";
 import GeneralLayout from "../../components/Layout";
 import HeroSection from "./HeroSection";
 import YourChoice from "./YourChoiceSection";
+import IncreaseTraffic from "./IncreaseTraffic";
+
 
 const LandingPage = () => {
   return (
@@ -10,6 +12,7 @@ const LandingPage = () => {
       <LandingPageWrap>
         <HeroSection />
         <YourChoice />
+        <IncreaseTraffic />
       </LandingPageWrap>
     </GeneralLayout>
   );
