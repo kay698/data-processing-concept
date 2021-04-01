@@ -5,6 +5,7 @@ import HeroSection from "./HeroSection";
 import YourChoice from "./YourChoiceSection";
 import IncreaseTraffic from "./IncreaseTraffic";
 import SaveMoney from "./SaveMoney";
+import NextProject from "./NextProject";
 
 const LandingPage = () => {
   return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
         <YourChoice />
         <IncreaseTraffic />
         <SaveMoney />
+        <NextProject />
       </LandingPageWrap>
     </GeneralLayout>
   );
