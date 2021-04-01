@@ -1,17 +1,14 @@
 import React from "react";
 import { LandingPageWrap } from "./styles";
 import GeneralLayout from "../../components/Layout";
+import HeroSection from "./HeroSection"
 
 const LandingPage = () => {
   return (
     <GeneralLayout>
-      {/* <LandingPageWrap>
+       <LandingPageWrap>
           <HeroSection />
-          <FirstTestimonialSession hadleShowModal={hadleShowModal} />
-          <TopTestimonies localStorageItem={localStorageItem} />
-          <SecondTestimonialSession hadleShowModal={hadleShowModal} />
-          <BottomTestimonies localStorageItem={localStorageItem} />
-        </LandingPageWrap> */}
+        </LandingPageWrap> 
     </GeneralLayout>
   );
 };

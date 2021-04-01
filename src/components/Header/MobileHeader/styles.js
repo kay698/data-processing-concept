@@ -8,9 +8,8 @@ export const MobileWrap = styled.div`
   right: 0;
   transition: all 0.3s ease;
   padding-bottom: 10px;
-
   display: none;
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
     display: block;
   }
   .listParentWrap {

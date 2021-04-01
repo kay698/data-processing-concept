@@ -7,10 +7,8 @@ export const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     justifyContent: "center",
     width: "100%",
-    // marginTop: "100px",
     position: "relative",
     height: "max-content",
-    // overflow: "hidden",
 
     "& img": {
       width: "100%",

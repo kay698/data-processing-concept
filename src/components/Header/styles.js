@@ -4,12 +4,11 @@ export const HeaderWrap = styled.div`
   width: 100vw;
   height: 100px;
   z-index: 1000000;
-  position: fixed;
-  /* background-color: white; */
+  position: fixed;  
   right: 0;
 
   .desktopMenu {
-    @media (max-width: 700px) {
+    @media (max-width: 800px) {
       display: none;
     }
   }
@@ -52,7 +51,7 @@ export const HeaderWrap = styled.div`
   }
 
 
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
     height: max-content;
   }
 `;

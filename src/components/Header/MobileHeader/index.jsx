@@ -66,8 +66,8 @@ const MobileHeader = ({ navBackground }) => {
               ))}
             </FlexibleDiv>
           </ul>
-          <CustomButton text="Sign in" outline />
-          <CustomButton text="Sign up" />
+          <CustomButton text="Sign in" sm outline />
+          <CustomButton text="Sign up" sm />
         </FlexibleDiv>
       </FlexibleDiv>
     </MobileWrap>

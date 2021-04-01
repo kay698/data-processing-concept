@@ -17,3 +17,7 @@ a {
 li {
   list-style-type: none;
 }
+p, span{
+  margin : 0;
+  padding : 0;
+}

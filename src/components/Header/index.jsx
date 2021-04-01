@@ -58,8 +58,8 @@ const Header = () => {
           className="buttonsWrap"
           justifyContent="space-between"
         >
-          <CustomButton text="Sign in" outline />
-          <CustomButton text="Sign up" />
+          <CustomButton text="Sign in" sm outline />
+          <CustomButton text="Sign up" sm />
         </FlexibleDiv>
       </FlexibleDiv>
       <MobileHeader className="mobilMenu"  navBackground={navBackground}/>
