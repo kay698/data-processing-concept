@@ -5,7 +5,6 @@ import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
 import Typography from "@material-ui/core/Typography";
 import { FooterNavItems } from "../../helpers/footerNavItems";
-import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -17,7 +16,7 @@ const Footer = () => {
 
   return (
     <Grid container className={classes.footerGrid}>
-      <img src={FooterSpots} alt="footer spots" />
+      <img src={FooterSpots} alt="footer spots"  className="droplets" />
       <Grid container className={classes.footerGrid__HeaderSection}>
         <Typography variant={"h5"} className={classes.footerGrid__HeaderText}>
           ARShakir

@@ -4,7 +4,7 @@ export const HeroSectionWrap = styled.div`
   width: 100%;
   height: max-content;
   overflow: hidden;
-  padding: 150px 0;
+  padding: 150px 0 50px 0;
   position: relative;
 
   @media (max-width: 950px) {
