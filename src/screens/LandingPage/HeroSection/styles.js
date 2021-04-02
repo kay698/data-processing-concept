@@ -21,12 +21,8 @@ export const HeroSectionWrap = styled.div`
       margin-top: -100px;
     }
     @media (max-width: 800px) {
-      position: absolute;
-      width: 90%;
-      height: 100%;
-      z-index: -1;
-      bottom: 0;
-    }
+      display: none;
+                }
 
     img {
       height: auto;
