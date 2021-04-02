@@ -30,12 +30,7 @@ const YourChoice = () => {
       </FlexibleDiv>
 
       <FlexibleDiv>
-        <FlexibleDiv
-          width="80%"
-          className="contentWrap"
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-        >
+        <FlexibleDiv width="80%" className="contentWrap">
           {ChoiceContents.map((item, index) => (
             <FlexibleDiv
               width="300px"
@@ -43,6 +38,8 @@ const YourChoice = () => {
               alignItems="flex-start"
               justifyContent="space-between"
               className="contentSubWrap"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
             >
               <div className="iconDiv" key={index}>
                 <img src={item.icon} alt="logo" />

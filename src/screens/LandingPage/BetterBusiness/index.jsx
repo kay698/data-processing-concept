@@ -11,9 +11,9 @@ const BetterBusiness = () => {
   return (
     <BetterBusinessWrap>
       <img src={Map} alt="bgImage" className="bgImage" />
-      <FlexibleDiv  
+      <FlexibleDiv
         justifyContent="space-evenly"
-        className="wrap"
+        className="contentWrap"
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
       >

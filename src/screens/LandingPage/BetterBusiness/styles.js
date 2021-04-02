@@ -7,17 +7,17 @@ export const BetterBusinessWrap = styled.div`
   padding: 50px 0 100px 0;
   position: relative;
 
-  .bgImage {
+  .bgImage{
     position: absolute;
     z-index: -2;
     right: 0;
     top: 0;
     @media (max-width: 980px) {
-      top: 300px;
+     top: 300px;
     }
   }
 
-  .wrap {
+  .contentWrap {
     @media (max-width: 1080px) {
       justify-content: space-between;
       padding: 0 40px;
