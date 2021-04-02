@@ -45,7 +45,6 @@ const FindInformation = () => {
           flexDir="column"
           justifyContent="flex-start"
           alignItems="flex-start"
-          width="max-content"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
         >
