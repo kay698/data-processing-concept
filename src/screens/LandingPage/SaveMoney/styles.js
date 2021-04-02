@@ -46,7 +46,7 @@ export const SaveMoneyWrap = styled.div`
       text-align: center;
       letter-spacing: 0.2px;
       color: #8476aa;
-      margin: 20px 0;
+      margin: 0 0 30px 0;
 
       @media (max-width: 550px) {
         width: 70%;
@@ -56,8 +56,9 @@ export const SaveMoneyWrap = styled.div`
   }
 
   .contentWrap {
+    /* margin-top: 30px; */
     .contentSubWrap {
-      margin: 20px;
+      margin:  20px 20px 0 20px;
     }
     h3 {
       height: 42px;
@@ -68,16 +69,16 @@ export const SaveMoneyWrap = styled.div`
       letter-spacing: 0.33px;
       color: #99efd0;
       width: 100%;
-      margin: 30px 0 10px 0;
+      margin: 10px 0 10px 0;
     }
     h6 {
-      height: 60px;
       width: 100%;
       font-size: 15px;
       line-height: 20px;
       text-align: center;
       letter-spacing: 0.2px;
       color: #8476aa;
+      margin:  0;
     }
     @media (max-width: 1300px) {
       width: 100%;

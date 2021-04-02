@@ -20,7 +20,7 @@ export const FindInformationWrap = styled.div`
       justify-content: space-between;
       margin: 0 100px;
     }
-    @media (max-width: 1300px) {
+    @media (max-width: 980px) {
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
@@ -48,6 +48,10 @@ export const FindInformationWrap = styled.div`
       align-items: center;
     }
 
+    @media (max-width: 1300px) and (min-width: 1180px) {
+      margin-right: 100px;
+    }
+
     @media (max-width: 450px) {
       p,
       h5,
@@ -63,6 +67,9 @@ export const FindInformationWrap = styled.div`
       flex-direction: column;
       justify-content: flex-start;
       margin-left: -10px;
+    }
+    @media (max-width: 450px) {
+      margin-left: 0;
     }
   }
   .contentSubWrap {
@@ -89,7 +96,6 @@ export const FindInformationWrap = styled.div`
       p {
         width: 300px;
       }
-      width: max-content;
     }
     @media (max-width: 980px) {
       width: max-content;

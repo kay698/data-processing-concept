@@ -38,7 +38,7 @@ export const BetterBusinessWrap = styled.div`
       }
       @media (max-width: 980px) {
         width: 100%;
-        font-size: 40px;
+        font-size: 30px;
       }
     }
 
@@ -60,12 +60,7 @@ export const BetterBusinessWrap = styled.div`
         width: 100%;
       }
     }
-    /* button {
-      margin: 50px 0;
-    } */
-
     @media (max-width: 980px) {
-      margin-top: 80px;
       width: 700px;
     }
     @media (max-width: 750px) {

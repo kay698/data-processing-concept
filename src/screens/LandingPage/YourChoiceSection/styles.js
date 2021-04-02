@@ -8,8 +8,7 @@ export const YourChoiceWrap = styled.div`
   position: relative;
 
   .droplets {
-    width: 100%;
-    height: auto;
+    
     top: 0;
     position: absolute;
     z-index: -1;
