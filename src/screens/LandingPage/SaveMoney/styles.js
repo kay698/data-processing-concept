@@ -31,10 +31,10 @@ export const SaveMoneyWrap = styled.div`
       @media (max-width: 920px) {
         width: 90%;
         font-size: 30px;
-        line-height: 25px;
       }
       @media (max-width: 620px) {
-        font-size: 20px;
+        font-size: 24px;
+        line-height: 30px;
       }
     }
 
@@ -56,8 +56,8 @@ export const SaveMoneyWrap = styled.div`
   }
 
   .contentWrap {
-    .contentSubWrap{
-      margin: 0 20px;
+    .contentSubWrap {
+      margin: 20px;
     }
     h3 {
       height: 42px;
@@ -80,7 +80,7 @@ export const SaveMoneyWrap = styled.div`
       color: #8476aa;
     }
     @media (max-width: 1300px) {
-        width: 100%;
-      }
+      width: 100%;
+    }
   }
 `;

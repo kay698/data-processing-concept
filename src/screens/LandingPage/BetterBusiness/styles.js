@@ -34,7 +34,6 @@ export const BetterBusinessWrap = styled.div`
 
     h6 {
       width: 468px;
-      height: 44px;
       font-size: 18px;
       line-height: 22px;
       color: #8476aa;
@@ -51,6 +50,9 @@ export const BetterBusinessWrap = styled.div`
         width: 100%;
       }
     }
+    /* button {
+      margin: 50px 0;
+    } */
 
     @media (max-width: 980px) {
       margin-top: 80px;
@@ -62,6 +64,7 @@ export const BetterBusinessWrap = styled.div`
   }
 
   .picturesWrap {
+    position: relative;
     img {
       height: 100%;
       width: 100%;
@@ -97,7 +100,7 @@ export const BetterBusinessWrap = styled.div`
 
     .contentWithPicWrap {
       width: 320px;
-      height: 450px;
+      height: 480px;
       border-radius: 0 0 8.93861px 8.93861px;
 
       .picContentWrap {
@@ -142,40 +145,45 @@ export const BetterBusinessWrap = styled.div`
         margin-top: 40px;
       }
     }
-    .pathWrap {
+    .path {
       background: #13c296;
       box-shadow: -16.0895px 24.1342px 36.6483px rgba(19, 194, 150, 0.24);
       border-radius: 8.93861px;
       padding: 25px 20px;
       z-index: 10;
-      margin: -120px -40px 0 0;
+      left: -40px;
+      top: 100px;
+      position: absolute;
     }
 
     @media (max-width: 1080px) {
-      margin-right:  80px ;
-
-      .contentWithPicWrap {
-        width: 300px;
-        height: 450px;
-      }
+      margin-right: 80px;
     }
     @media (max-width: 980px) {
       margin-right: 0;
     }
 
     @media (max-width: 560px) {
-      .pathWrap {
-        margin: -300px -100px 0 0;
+      .path {
+        left: -10px;
       }
       .monthWrap {
         margin: 270px 0 0 -120px;
-        z-index : 10;
+        z-index: 10;
       }
     }
-    @media (max-width: 400px) {
-  
+    @media (max-width: 420px) {
+      .contentWithPicWrap {
+        width: 300px;
+
+        .picContentSubWrap {
+          width: 90%;
+        }
+      }
+
       .monthWrap {
-        padding : 20px 10px;
+        padding: 20px 10px;
+        margin: 270px 0 0 -100px;
       }
     }
   }

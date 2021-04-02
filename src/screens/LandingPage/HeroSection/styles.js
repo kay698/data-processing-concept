@@ -11,7 +11,7 @@ export const HeroSectionWrap = styled.div`
     padding: 100px 0;
   }
   @media (max-width: 400px) {
-    padding: 30px 0;
+    padding: 50px 0;
   }
 
   .imageWrap {
@@ -22,7 +22,7 @@ export const HeroSectionWrap = styled.div`
     }
     @media (max-width: 800px) {
       display: none;
-                }
+    }
 
     img {
       height: auto;
@@ -101,6 +101,9 @@ export const HeroSectionWrap = styled.div`
         border-radius: 4px;
         cursor: pointer;
 
+        @media (max-width: 1000px) {
+          background: #25043b;
+        }
         @media (max-width: 400px) {
           width: 120px;
         }

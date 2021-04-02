@@ -39,7 +39,7 @@ const BetterBusiness = () => {
           width="max-content"
           className="picturesWrap"
         >
-          <FlexibleDiv width="max-content" className="pathWrap">
+          <FlexibleDiv width="max-content" className="path">
             <img src={Path} alt="path" />
           </FlexibleDiv>
 
@@ -59,6 +59,7 @@ const BetterBusiness = () => {
                 alignItems="flex-start"
                 flexDir="column"
                 width="80%"
+                className="picContentSubWrap"
               >
                 <p>Omah mukti residence</p>
                 <span>Merpati sidomuncul 26 street, UK</span>
