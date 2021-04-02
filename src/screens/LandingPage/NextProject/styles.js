@@ -3,9 +3,8 @@ import styled from "styled-components";
 export const NextProjectWrap = styled.div`
   width: 100%;
   height: max-content;
-  padding: 50px 0 100px 0;
+  padding: 50px 0
   position: relative;
-  /* min-height: 70vh; */
 
   h3 {
     margin: 20px 0;

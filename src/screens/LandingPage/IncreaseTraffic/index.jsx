@@ -44,7 +44,7 @@ const IncreaseTraffic = () => {
             <img src={Path} alt="path" />
           </FlexibleDiv>
           <div className="graph">
-            <img src={GraphImage} alt="grapgh" />
+            <img src={GraphImage} alt="graph" />
           </div>
           <div>
             <img src={WritingImage} alt="writing" className="parentPic"/>
