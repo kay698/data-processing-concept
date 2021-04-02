@@ -88,6 +88,7 @@ export const YourChoiceWrap = styled.div`
       font-size: 18px;
       line-height: 22px;
       color: #99efd0;
+      margin : 0;
     }
     p {
       margin-top: 20px;

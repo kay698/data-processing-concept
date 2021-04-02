@@ -7,6 +7,7 @@ import IncreaseTraffic from "./IncreaseTraffic";
 import SaveMoney from "./SaveMoney";
 import NextProject from "./NextProject";
 import BetterBusiness from "./BetterBusiness";
+import FindInformation from "./FindInformation";
 
 const LandingPage = () => {
   return (
@@ -18,6 +19,7 @@ const LandingPage = () => {
         <SaveMoney />
         <NextProject />
         <BetterBusiness />
+        <FindInformation />
       </LandingPageWrap>
     </GeneralLayout>
   );
