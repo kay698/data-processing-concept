@@ -5,10 +5,12 @@ import Typography from "@material-ui/core/Typography";
 import CustomButton from "../../../components/Buttons";
 import MainImage from "../../../assets/Images/businessPic.png";
 import Path from "../../../assets/Images/Path.png";
+import Map from "../../../assets/Images/map.png";
 
 const BetterBusiness = () => {
   return (
     <BetterBusinessWrap>
+      <img src={Map} alt="bgImage" className="bgImage" />
       <FlexibleDiv justifyContent="space-evenly" className="bodyWrap">
         <FlexibleDiv
           flexDir="column"
@@ -35,7 +37,6 @@ const BetterBusiness = () => {
         </FlexibleDiv>
 
         <FlexibleDiv
-          // height="600px"
           width="max-content"
           className="picturesWrap"
         >
