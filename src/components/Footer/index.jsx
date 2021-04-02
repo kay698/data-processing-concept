@@ -3,7 +3,6 @@ import Grid from "@material-ui/core/Grid";
 import IconButton from "@material-ui/core/IconButton";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
-import Typography from "@material-ui/core/Typography";
 import { FooterNavItems } from "../../helpers/footerNavItems";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
@@ -16,11 +15,9 @@ const Footer = () => {
 
   return (
     <Grid container className={classes.footerGrid}>
-      <img src={FooterSpots} alt="footer spots"  className="droplets" />
+      <img src={FooterSpots} alt="footer spots" className="droplets" />
       <Grid container className={classes.footerGrid__HeaderSection}>
-        <Typography variant={"h5"} className={classes.footerGrid__HeaderText}>
-          ARShakir
-        </Typography>
+        <h5 className={classes.footerGrid__HeaderText}>ARShakir</h5>
         <section className={classes.socials}>
           <a href="/" target={"_blank"}>
             <IconButton>
@@ -43,7 +40,7 @@ const Footer = () => {
         <Grid className={classes.linksWrap}>
           {FooterNavItems.map((list, index) => (
             <Grid item key={index}>
-              <Typography variant={"h6"}>{list.header}</Typography>
+              <h6>{list.header}</h6>
               <MenuList>
                 {list.items.map((item, idx) => (
                   <MenuItem key={idx}>

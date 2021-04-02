@@ -1,31 +1,36 @@
 import React from "react";
 import { FlexibleDiv } from "../../../components/FlexBox/styles";
 import { BetterBusinessWrap } from "./styles";
-import Typography from "@material-ui/core/Typography";
 import CustomButton from "../../../components/Buttons";
 import MainImage from "../../../assets/Images/businessPic.png";
 import Path from "../../../assets/Images/Path.png";
 import Map from "../../../assets/Images/map.png";
+import "aos/dist/aos.css";
 
 const BetterBusiness = () => {
   return (
     <BetterBusinessWrap>
       <img src={Map} alt="bgImage" className="bgImage" />
-      <FlexibleDiv justifyContent="space-evenly" className="bodyWrap">
+      <FlexibleDiv  
+        justifyContent="space-evenly"
+        className="wrap"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <FlexibleDiv
           flexDir="column"
           width="max-content"
           alignItems="flex-start"
           className="TextSection"
         >
-          <Typography variant={"h3"} className="HeaderSection__headerText">
+          <h3 className="HeaderSection__headerText">
             Invest property for better <span>business</span>
-          </Typography>
-          <Typography variant={"h6"}>
+          </h3>
+          <h6>
             We are committed to processing the information in order to contact
             you and talk about your project. We are committed to processing the
             information.
-          </Typography>
+          </h6>
           <FlexibleDiv
             width="max-content"
             justifyContent="flex-start"
@@ -36,10 +41,7 @@ const BetterBusiness = () => {
           </FlexibleDiv>
         </FlexibleDiv>
 
-        <FlexibleDiv
-          width="max-content"
-          className="picturesWrap"
-        >
+        <FlexibleDiv width="max-content" className="picturesWrap">
           <FlexibleDiv width="max-content" className="path">
             <img src={Path} alt="path" />
           </FlexibleDiv>

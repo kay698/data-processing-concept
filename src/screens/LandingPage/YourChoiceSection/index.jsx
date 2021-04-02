@@ -2,8 +2,8 @@ import React from "react";
 import { FlexibleDiv } from "../../../components/FlexBox/styles";
 import { YourChoiceWrap } from "./styles";
 import { LogoList, ChoiceContents } from "../../../helpers/yourChoiceHelpers";
-import Typography from "@material-ui/core/Typography";
 import Droplets from "../../../assets/Images/yourChoiceImage.png";
+import "aos/dist/aos.css";
 
 const YourChoice = () => {
   return (
@@ -16,40 +16,48 @@ const YourChoice = () => {
           </div>
         ))}
       </FlexibleDiv>
-      <FlexibleDiv className="header" flexDir="column">
-        <Typography variant={"h1"}> Your Choice</Typography>
+      <FlexibleDiv
+        className="header"
+        flexDir="column"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
+        <h1> Your Choice</h1>
         <p>
           There are many reasons to get down and start to get depressed about
           your situation.{" "}
         </p>
       </FlexibleDiv>
 
-      <FlexibleDiv >
-        <FlexibleDiv  width="80%"  className="contentWrap">
-        {ChoiceContents.map((item, index) => (
-          <FlexibleDiv
-            width="300px"
-            height="max-content"
-            alignItems="flex-start"
-            justifyContent="space-between"
-            className="contentSubWrap"
-          >
-            <div className="iconDiv" key={index}>
-              <img src={item.icon} alt="logo" />
-            </div>
+      <FlexibleDiv>
+        <FlexibleDiv
+          width="80%"
+          className="contentWrap"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
+          {ChoiceContents.map((item, index) => (
             <FlexibleDiv
-              width="max-content"
+              width="300px"
+              height="max-content"
               alignItems="flex-start"
-              justifyContent="flex-start"
-              flexDir="column"
+              justifyContent="space-between"
+              className="contentSubWrap"
             >
-              <Typography variant={"h5"}>{item.header}</Typography>
-              <p>
-                {item.body}
-              </p>
+              <div className="iconDiv" key={index}>
+                <img src={item.icon} alt="logo" />
+              </div>
+              <FlexibleDiv
+                width="max-content"
+                alignItems="flex-start"
+                justifyContent="flex-start"
+                flexDir="column"
+              >
+                <h5>{item.header}</h5>
+                <p>{item.body}</p>
+              </FlexibleDiv>
             </FlexibleDiv>
-          </FlexibleDiv>
-        ))}
+          ))}
         </FlexibleDiv>
       </FlexibleDiv>
     </YourChoiceWrap>

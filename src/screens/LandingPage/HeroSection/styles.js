@@ -29,7 +29,7 @@ export const HeroSectionWrap = styled.div`
       width: 100%;
       bottom: 100px;
       z-index: 10000;
-      animation: blink 3s infinite ease 1s;
+      animation: blink 3s infinite ease 5s;
     }
   }
   .HeaderTextSection {

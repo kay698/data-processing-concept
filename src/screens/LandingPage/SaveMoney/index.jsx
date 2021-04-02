@@ -1,27 +1,37 @@
 import React from "react";
 import { FlexibleDiv } from "../../../components/FlexBox/styles";
 import { SaveMoneyWrap } from "./styles";
-import Typography from "@material-ui/core/Typography";
 import Droplets from "../../../assets/Images/saveMoneyPic.png";
 import { SaveMoneyItems } from "../../../helpers/saveMoneyHelpers";
+import "aos/dist/aos.css";
 
 const SaveMoney = () => {
   return (
     <SaveMoneyWrap>
       <img src={Droplets} alt="droplets" className="droplets" />
-      <FlexibleDiv className="headerTextWrap" flexDir="column">
-        <Typography variant={"h3"}>
+      <FlexibleDiv
+        className="headerTextWrap"
+        flexDir="column"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
+        <h3>
           3 Simple Ways To <span> Save </span>A Bunch Of <span>Money</span> When
           Buying A New Computer
-        </Typography>
-        <Typography variant={"h6"}>
+        </h3>
+        <h6>
           Fully customizable and neatly organized components will help you work
           faster without limiting creative freedom.
-        </Typography>
+        </h6>
       </FlexibleDiv>
 
       <FlexibleDiv>
-        <FlexibleDiv width="80%" className="contentWrap">
+        <FlexibleDiv
+          width="80%"
+          className="contentWrap"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           {SaveMoneyItems.map((item, index) => (
             <FlexibleDiv
               width="300px"
@@ -31,8 +41,8 @@ const SaveMoney = () => {
               className="contentSubWrap"
               key={index}
             >
-              <Typography variant={"h3"}>{item.head}</Typography>
-              <Typography variant={"h6"}>{item.content}</Typography>
+              <h3>{item.head}</h3>
+              <h6>{item.content}</h6>
             </FlexibleDiv>
           ))}
         </FlexibleDiv>

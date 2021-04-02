@@ -7,11 +7,17 @@ import WritingImage from "../../../assets/Images/Rectangle.png";
 import GraphImage from "../../../assets/Images/Group.png";
 import Dots from "../../../assets/Images/dots.png";
 import Path from "../../../assets/Images/Path.png";
+import "aos/dist/aos.css";
 
 const IncreaseTraffic = () => {
   return (
     <IncreaseTrafficWrap>
-      <FlexibleDiv justifyContent="space-evenly" className="bodyWrap">
+      <FlexibleDiv
+        justifyContent="space-evenly"
+        className="bodyWrap"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <FlexibleDiv
           flexDir="column"
           width="max-content"
@@ -47,7 +53,7 @@ const IncreaseTraffic = () => {
             <img src={GraphImage} alt="graph" />
           </div>
           <div>
-            <img src={WritingImage} alt="writing" className="parentPic"/>
+            <img src={WritingImage} alt="writing" className="parentPic" />
           </div>
           <div className="dot">
             <img src={Dots} alt="dots" />
