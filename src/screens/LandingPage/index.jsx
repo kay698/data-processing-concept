@@ -8,6 +8,7 @@ import SaveMoney from "./SaveMoney";
 import NextProject from "./NextProject";
 import BetterBusiness from "./BetterBusiness";
 import FindInformation from "./FindInformation";
+import ManyReasons from "./ManyReasons";
 
 const LandingPage = () => {
   return (
@@ -20,6 +21,7 @@ const LandingPage = () => {
         <NextProject />
         <BetterBusiness />
         <FindInformation />
+        <ManyReasons />
       </LandingPageWrap>
     </GeneralLayout>
   );
