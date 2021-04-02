@@ -11,7 +11,6 @@ export const useStyles = makeStyles((theme) => ({
     height: (props) => (props.sm ? "max-content" : "50px"),
     width: (props) => (props.sm ? "max-content" : "150px"),
     fontSize: "12px",
-    letterSpacing: "0px",
     border: "1px solid #F2994A",
     boxShadow: (props) =>
       props.shadow

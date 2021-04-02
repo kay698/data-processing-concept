@@ -3,7 +3,6 @@ import makeStyles from "@material-ui/core/styles/makeStyles";
 export const useStyles = makeStyles((theme) => ({
   footerGrid: {
     backgroundColor: "transparent",
-    height: "auto",
     flexDirection: "column",
     justifyContent: "center",
     width: "100%",
@@ -41,7 +40,6 @@ export const useStyles = makeStyles((theme) => ({
   },
   footerGrid__HeaderSection: {
     backgroundColor: "inherit",
-    padding: "0",
     flexDirection: "row",
     justifyContent: "space-between",
     color: "#F3F3F3 !important",
@@ -150,9 +148,7 @@ export const useStyles = makeStyles((theme) => ({
     margin: "15px 0 30px 0",
 
     "& a": {
-   
       marginRight: "10px",
-
     },
 
     "& button": {

@@ -44,10 +44,16 @@ const HeroSection = () => {
             <FlexibleDiv className="video">
               <PlayCircleFilledIcon />
             </FlexibleDiv>
-            <FlexibleDiv className="vdeoText" flexDir="column" alignItems="flex-start"   width="max-content" height="100%" alignItems="flex-start">
+            <FlexibleDiv
+              className="vdeoText"
+              flexDir="column"
+              alignItems="flex-start"
+              width="max-content"
+              height="100%"
+            >
               <p>
-                The harder you work for something, the greater
-               you’ll feel when you achieve it.
+                The harder you work for something, the greater you’ll feel when
+                you achieve it.
               </p>
               <span>Watch preview</span>
             </FlexibleDiv>

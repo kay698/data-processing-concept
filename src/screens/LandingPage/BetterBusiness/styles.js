@@ -138,7 +138,7 @@ export const BetterBusinessWrap = styled.div`
         }
       }
 
-      @media (max-width: 800px) {
+      @media (max-width: 1080px) {
         margin-top: 40px;
       }
     }
@@ -152,7 +152,7 @@ export const BetterBusinessWrap = styled.div`
     }
 
     @media (max-width: 1080px) {
-      margin-right: 80px;
+      margin-right:  80px ;
 
       .contentWithPicWrap {
         width: 300px;
