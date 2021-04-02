@@ -1,4 +1,4 @@
-# remove hero image on media query
+#finish screens
+#change texts from typography
 #animate page
 #check texts
-#font family
